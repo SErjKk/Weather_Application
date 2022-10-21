@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:textAlignment="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="@string/logo"
+        android:textAlignment="center"
+        android:layout_marginTop="30sp"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/cityField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50sp"
+        android:layout_marginTop="100sp"
+        android:backgroundTint="@color/purple_200"
+        android:ems="10"
+        android:fontFamily="@font/montserrat_bold"
+        android:hint="@string/hint_cityField"
+        android:inputType="textPersonName"
+        android:textColor="@color/white"
+        android:textColorHint="@color/hint" />
+
+    <Button
+        android:id="@+id/mainButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cityField"
+        android:layout_marginHorizontal="130sp"
+        android:layout_marginTop="20sp"
+        android:backgroundTint="@color/purple_200"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="@string/mainButton"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250sp"
+        android:fontFamily="@font/montserrat_bold"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+</RelativeLayout>
